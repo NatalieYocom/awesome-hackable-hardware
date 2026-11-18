@@ -1,0 +1,36 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main # Change to 'master' if your default branch is master
+  workflow_dispatch: # Lets you also trigger a manual run from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run README build script
+        run: python scripts/build_readme.py
+
+      - name: Commit and push updated README
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "docs: update README" && git push)
