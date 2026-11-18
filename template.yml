@@ -1,0 +1,15 @@
+name: # no quotes.
+type: # Softmod/Hardmod
+difficulty: # Easy/Intermediate/Difficult
+firmware: "1.0 - 1.0"
+reversible: true
+brick: # Likely that device can be bricked from attempting to mod. (likely/unlikely/none)
+tools:
+  - tool 1
+  - tool 2
+  - tool 3
+guide: example.com
+cfw: example.com
+notes: "example"
+
+# For all websites, remember to add "https://" in the front, or the link may not work!
