@@ -1,0 +1,14 @@
+name: Nintendo Wii U
+type: Softmod
+difficulty: Easy
+firmware: "5.5.0 - 5.5.6"
+reversible: true
+brick: unlikely
+tools:
+- SD card (32GB or larger recommended, FAT32 formatted)
+- SD card reader
+- PC or Mac
+guide: https://wiiu.hacks.guide
+cfw: https://github.com/wiiu-env/Aroma
+image:
+notes: "Uses the browser-based JS Type Confusion exploit to install Aroma CFW and PayloadLoader for coldboot functionality."
