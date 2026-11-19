@@ -2,7 +2,7 @@
 
 An index of devices that can be modified or hacked to do what you want it to!
 
-> **Want to add a device?** Copy `template.yml` into the matching category folder inside `src/devices/` and open a Pull Request!
+> **Want to add a device?** Do not edit the README directly, Copy `template.yml` into the matching category folder inside `src/devices/` and open a Pull Request
 
 ## Video Game Consoles
 
