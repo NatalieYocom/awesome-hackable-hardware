@@ -1,0 +1,14 @@
+name: Wyze Cam (v2 / v3 / Pan v1 / Pan v2)
+type: Softmod
+difficulty: Easy
+firmware: "4.9.1 - 4.36.11"
+reversible: true
+brick: none
+tools:
+- microSD card (32GB or smaller, FAT32 formatted)
+- microSD card reader
+- PC or Mac
+guide: https://thingino.com/
+cfw: https://github.com/themactep/thingino-firmware
+image:
+notes: "Boots from a microSD card (or flashes directly to SPI NOR flash) to replace Wyze's cloud-dependent firmware with Thingino, unlocking local RTSP streams, ONVIF, and MQTT for Frigate and Home Assistant."
