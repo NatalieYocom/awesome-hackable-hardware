@@ -15,6 +15,13 @@ def format_link(raw_url: str, label: str) -> str:
         url = f"https://{url}"
     return f"[{label}]({url})"
 
+def format_image(raw_img: str, alt_text: str) -> str:
+    img = str(raw_img or "").strip()
+    if not img or "example.com" in img:
+        return ""
+    # Supports both external URLs (https://...) and local repo paths (src/images/...)
+    return f'<img src="{img}" alt="{alt_text}" height="140" />'
+
 def get_category_heading(category_dir: pathlib.Path) -> str:
     name_file = category_dir / "foldername_"
     if name_file.exists():
@@ -77,11 +84,15 @@ def build():
                 raw_notes = str(d.get("notes") or "").strip()
                 notes = "" if raw_notes == "example" else raw_notes.replace("\n", " ")
 
+                image_tag = format_image(d.get("image"), name)
+
                 # Build clean full-width device block
-                card = [
-                    f"### {name}",
-                    f"**Type:** {mod_type} · **Difficulty:** {diff} · **Firmware:** {fw} · **Reversible:** {reversible} · **Brick Risk:** {brick}",
-                ]
+                card = [f"### {name}"]
+                if image_tag:
+                    card.append(image_tag + "\n")
+                card.append(
+                    f"**Type:** {mod_type} · **Difficulty:** {diff} · **Firmware:** {fw} · **Reversible:** {reversible} · **Brick Risk:** {brick}"
+                )
                 if tools:
                     card.append(f"* **Tools:** {tools}")
                 if links:
