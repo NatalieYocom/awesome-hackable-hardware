@@ -1,0 +1,15 @@
+name: Electrolux / Frigidaire / AEG Appliances (NIU Bus)
+type: Hardmod
+difficulty: Intermediate
+firmware: "1.0 - 2.0"
+reversible: true
+brick: unlikely
+tools:
+- ESP32 microcontroller
+- RS-485 to TTL transceiver module
+- Jumper wires and JST connector
+- PC or Mac (running ESPHome)
+guide: https://github.com/lucianovk/esphome-electrolux
+cfw: https://github.com/esphome/esphome
+image:
+notes: "Connects to the internal NIU (Network Interface Unit) diagnostic header on Electrolux/AEG dishwashers, ovens, and laundry machines to expose sensors and remote start commands locally via MQTT/ESPHome."
