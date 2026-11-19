@@ -162,6 +162,14 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Links:** [Guide](https://www.webosbrew.org/) • [CFW](https://github.com/webosbrew/homebrew-channel)
 * **Notes:** Installs the webOS Homebrew Channel, enabling ad-free YouTube (YouTube AdFree), Hyperion ambient lighting capture, SSH root access, and full local Home Assistant control without LG cloud telemetry.
 
+---
+
+### Samsung Smart TVs (Tizen OS)
+**Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** 1000 - 2500 · **Reversible:** Yes · **Brick Risk:** None
+* **Tools:** PC or Mac (running Tizen Studio or TizenBrew), Local Wi-Fi network, Samsung Developer Mode enabled on TV
+* **Links:** [Guide](https://github.com/reisxd/TizenBrew) • [CFW](https://github.com/reisxd/TizenTube)
+* **Notes:** Uses Developer Mode to sideload TizenBrew and custom web apps (such as TizenTube for ad-free playback and MoonLight for game streaming) while allowing local WebSocket control in Home Assistant with Samsung's ad/telemetry domains blocked via Pi-hole.
+
 ## Media Players
 
 ---
