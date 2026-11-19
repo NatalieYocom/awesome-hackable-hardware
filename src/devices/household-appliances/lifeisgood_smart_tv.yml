@@ -1,0 +1,14 @@
+name: LG Smart TVs (webOS)
+type: Softmod
+difficulty: Easy
+firmware: "3.0.0 - 24.20.0"
+reversible: true
+brick: unlikely
+tools:
+- Local Wi-Fi network
+- PC, Mac, or Linux machine (running webOS Dev Manager)
+- LG Developer Mode account (or browser exploit via RootMyTV / DejaVu)
+guide: https://www.webosbrew.org/
+cfw: https://github.com/webosbrew/homebrew-channel
+image:
+notes: "Installs the webOS Homebrew Channel, enabling ad-free YouTube (YouTube AdFree), Hyperion ambient lighting capture, SSH root access, and full local Home Assistant control without LG cloud telemetry."
