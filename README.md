@@ -130,6 +130,14 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
+### Roborock / Dreame / Xiaomi Robot Vacuums
+**Type:** Hardmod · **Difficulty:** Intermediate · **Firmware:** 1.0.0 - 4.3.9 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** Varies per vaccum, see guide.
+* **Links:** [Guide](https://valetudo.cloud/pages/general/getting-started.html) • [CFW](https://github.com/Hypfer/Valetudo)
+* **Notes:** Replaces the vendor cloud with Valetudo, providing a completely local web interface, room mapping, and native MQTT integration for Home Assistant without sending floorplans to external servers.
+
+---
+
 ## Contributing
 
 1. Fork the repository and create a new branch.
