@@ -156,14 +156,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
-### Electrolux / Frigidaire / AEG Appliances (NIU Bus)
-**Type:** Hardmod · **Difficulty:** Intermediate · **Firmware:** 1.0 - 2.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
-* **Tools:** ESP32 microcontroller, RS-485 to TTL transceiver module, Jumper wires and JST connector, PC or Mac (running ESPHome)
-* **Links:** [Guide](https://github.com/lucianovk/esphome-electrolux) • [CFW](https://github.com/esphome/esphome)
-* **Notes:** Connects to the internal NIU (Network Interface Unit) diagnostic header on Electrolux/AEG dishwashers, ovens, and laundry machines to expose sensors and remote start commands locally via MQTT/ESPHome.
-
----
-
 ### Gaggia Classic / Classic Pro Espresso Machine
 **Type:** Hardmod · **Difficulty:** Difficult · **Firmware:** 1.0.0 - 4.0.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** STM32 / ESP32 microcontroller board (Gaggiuino kit), Pressure transducer, thermocouple, and dimmer/SSR modules, High-temperature silicone wire and spade connectors, Soldering iron and crimping tool, Phillips screwdriver and hex keys
