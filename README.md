@@ -61,6 +61,8 @@ An index of devices that can be modified or hacked to do what you want it to!
 ---
 
 ### PlayStation 4
+<img src="src/images/ps4.png" alt="PlayStation 4" height="140" />
+
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** 1.00 - 11.00 · **Reversible:** Yes · **Brick Risk:** None
 * **Tools:** USB flash drive (exFAT formatted), Ethernet cable and PC (required for 9.03 - 11.00 PPPwn exploit)
 * **Links:** [Guide](https://consolemods.org/wiki/PS4:PS4_Mods_Wiki) • [CFW](https://github.com/GoldHEN/GoldHEN)
