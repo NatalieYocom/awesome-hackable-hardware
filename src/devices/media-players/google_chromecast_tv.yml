@@ -1,0 +1,14 @@
+name: Google Chromecast with Google TV (HD / 4K)
+type: Softmod
+difficulty: Intermediate
+firmware: "10.0 - 12.0"
+reversible: true
+brick: unlikely
+tools:
+- USB-C hub with Power Delivery
+- USB-A to USB-A data cable (or Linux PC for DirtyCow / bootloader unlock)
+- PC or Mac (with ADB and Fastboot)
+guide: https://xdaforums.com/f/chromecast-with-google-tv.12257/
+cfw: https://github.com/topjohnwu/Magisk
+image:
+notes: "Early unpatched firmware versions allow bootloader unlocking via the Amlogic exploit, enabling LineageOS or de-Googled stock firmware with custom launchers and local ADB control from Home Assistant."
