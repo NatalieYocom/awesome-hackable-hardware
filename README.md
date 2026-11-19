@@ -162,6 +162,16 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Links:** [Guide](https://www.webosbrew.org/) • [CFW](https://github.com/webosbrew/homebrew-channel)
 * **Notes:** Installs the webOS Homebrew Channel, enabling ad-free YouTube (YouTube AdFree), Hyperion ambient lighting capture, SSH root access, and full local Home Assistant control without LG cloud telemetry.
 
+## Media Players
+
+---
+
+### Amazon Fire TV Stick (4K / Lite / Gen 2 / Gen 3)
+**Type:** Hardmod · **Difficulty:** Intermediate · **Firmware:** 5.2.6.0 - 7.6.6.8 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** Aluminum foil or fine tweezers (to short the CLK/DAT resistor to GND), Plastic spudger / pry tool (to open the stick casing), Micro-USB data cable, Linux PC or Raspberry Pi (running kamakiri / amonet exploit scripts)
+* **Links:** [Guide](https://xdaforums.com/c/amazon-fire-tv.3075/) • [CFW](https://github.com/Rortiz2/LineageOS-FireTV)
+* **Notes:** Uses a BootROM exploit (kamakiri/amonet) by briefly shorting a motherboard test point during USB connection to unlock the bootloader, allowing TWRP recovery, Magisk root, custom launchers, and blocking Amazon OTA updates.
+
 ---
 
 ## Contributing
