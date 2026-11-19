@@ -1,0 +1,13 @@
+name: Linkplay Audio Modules (WiiM / Arylic / Audio Pro / GGMM)
+type: Softmod
+difficulty: Intermediate
+firmware: "3.6 - 4.6"
+reversible: true
+brick: unlikely
+tools:
+- PC or Mac (with SSH / Telnet / curl)
+- Local Wi-Fi or Ethernet network
+guide: https://github.com/AndersFluur/LinkPlayApi
+cfw: https://github.com/nicjo814/home-assistant-linkplay
+image:
+notes: "Exposes undocumented local HTTP/HTTPS APIs and root telnet/SSH shells on Linkplay-based streamers, allowing multi-room grouping, TTS announcements, and playback control in Home Assistant with WAN internet access blocked at the router."
