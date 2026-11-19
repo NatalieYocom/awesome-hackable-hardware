@@ -10,7 +10,7 @@ PLACEHOLDER = "{{DEVICES}}"
 def format_link(raw_url: str, label: str) -> str:
     url = str(raw_url or "").strip()
     if not url or "example.com" in url:
-        return "-"
+        return ""
     if not url.startswith(("http://", "https://")):
         url = f"https://{url}"
     return f"[{label}]({url})"
@@ -21,7 +21,6 @@ def get_category_heading(category_dir: pathlib.Path) -> str:
         custom_name = name_file.read_text(encoding="utf-8").strip()
         if custom_name:
             return custom_name
-    # Fallback if foldername_ is missing or empty
     return category_dir.name.replace("-", " ").title()
 
 def build():
@@ -32,7 +31,6 @@ def build():
     sections = []
 
     if DEVICES_DIR.exists():
-        # Every subfolder inside src/devices/ becomes a category section
         for category_dir in sorted(p for p in DEVICES_DIR.iterdir() if p.is_dir()):
             devices = []
             for yml_file in sorted(category_dir.glob("*.yml")):
@@ -49,11 +47,7 @@ def build():
             devices.sort(key=lambda d: str(d.get("name", "")).lower())
 
             heading = get_category_heading(category_dir)
-            lines = [
-                f"## {heading}\n",
-                "| Device | Type | Difficulty | Firmware | Reversible | Brick Risk | Tools | Links | Notes |",
-                "| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |",
-            ]
+            category_blocks = [f"## {heading}"]
 
             for d in devices:
                 name = str(d.get("name", "Unknown")).strip()
@@ -63,7 +57,6 @@ def build():
 
                 rev_val = d.get("reversible")
                 reversible = "Yes" if rev_val is True else ("No" if rev_val is False else "-")
-
                 brick = str(d.get("brick") or "-").strip().capitalize()
 
                 raw_tools = d.get("tools") or []
@@ -73,29 +66,39 @@ def build():
                         for t in raw_tools
                         if str(t).strip() not in ("", "tool 1", "tool 2", "tool 3")
                     ]
-                    tools = ", ".join(cleaned_tools) if cleaned_tools else "-"
+                    tools = ", ".join(cleaned_tools)
                 else:
-                    tools = str(raw_tools).strip() or "-"
+                    tools = str(raw_tools).strip()
 
                 guide_link = format_link(d.get("guide"), "Guide")
                 cfw_link = format_link(d.get("cfw"), "CFW")
-                links = " • ".join(l for l in (guide_link, cfw_link) if l != "-") or "-"
+                links = " • ".join(l for l in (guide_link, cfw_link) if l)
 
-                raw_notes = str(d.get("notes") or "-").strip()
-                notes = "-" if raw_notes == "example" else raw_notes.replace("\n", " ").replace("|", "\\|")
+                raw_notes = str(d.get("notes") or "").strip()
+                notes = "" if raw_notes == "example" else raw_notes.replace("\n", " ")
 
-                lines.append(
-                    f"| **{name}** | {mod_type} | {diff} | {fw} | {reversible} | {brick} | {tools} | {links} | {notes} |"
-                )
+                # Build clean full-width device block
+                card = [
+                    f"### {name}",
+                    f"**Type:** {mod_type} · **Difficulty:** {diff} · **Firmware:** {fw} · **Reversible:** {reversible} · **Brick Risk:** {brick}",
+                ]
+                if tools:
+                    card.append(f"* **Tools:** {tools}")
+                if links:
+                    card.append(f"* **Links:** {links}")
+                if notes:
+                    card.append(f"* **Notes:** {notes}")
 
-            sections.append("\n".join(lines))
+                category_blocks.append("\n".join(card))
 
-    generated_tables = "\n\n".join(sections)
+            sections.append("\n\n---\n\n".join(category_blocks))
+
+    generated_content = "\n\n".join(sections)
 
     if PLACEHOLDER in template_content:
-        output = template_content.replace(PLACEHOLDER, generated_tables)
+        output = template_content.replace(PLACEHOLDER, generated_content)
     else:
-        output = template_content.rstrip() + "\n\n" + generated_tables + "\n"
+        output = template_content.rstrip() + "\n\n" + generated_content + "\n"
 
     README_FILE.write_text(output, encoding="utf-8")
     print(f"Successfully generated {README_FILE} with {len(sections)} device categories.")
