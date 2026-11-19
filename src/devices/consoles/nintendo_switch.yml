@@ -11,5 +11,5 @@ tools:
 - PC, Mac, or Android phone (payload injector)
 guide: https://switch.hacks.guide
 cfw: https://github.com/Atmosphere-NX/Atmosphere
-image:
+image: src/images/switch.png
 notes: "Only applies to early Erista (V1) units manufactured before mid-2018 vulnerable to the Fusee Gelee exploit. Newer Switch models require a modchip."
