@@ -43,6 +43,8 @@ An index of devices that can be modified or hacked to do what you want it to!
 ---
 
 ### Nintendo Wii
+<img src="src/images/wii.png" alt="Nintendo Wii" height="140" />
+
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** 4.3 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** SD card (2GB or larger, formatted to FAT32), SD card reader, Internet connection (for str2hax DNS exploit)
 * **Links:** [Guide](https://wii.hacks.guide) • [CFW](https://github.com/HomebrewChannel/hbc)
