@@ -16,6 +16,14 @@ An index of devices that can be modified or hacked to do what you want it to!
 
 ---
 
+### Nintendo DSi
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 1.4 - 1.4.5 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** SD card (2GB or larger, FAT32 formatted), SD card reader, PC or Mac
+* **Links:** [Guide](https://dsi.cfw.guide) • [CFW](https://github.com/DS-Homebrew/TWiLightMenu)
+* **Notes:** Uses the Memory Pit exploit via the Nintendo DSi Camera app, followed by Unlaunch for coldbooting directly into TWiLight Menu++.
+
+---
+
 ### Nintendo Switch (OLED / Lite / V2)
 **Type:** Hardmod · **Difficulty:** Difficult · **Firmware:** 1.0.0 - 19.0.1 · **Reversible:** No · **Brick Risk:** Likely
 * **Tools:** Picofly (RP2040) or Instinct-NX modchip, Soldering iron with fine tip and flux, Microscope or magnifying glass, Tri-wing and Phillips, microSD card
