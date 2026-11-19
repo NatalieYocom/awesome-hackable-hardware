@@ -40,6 +40,14 @@ An index of devices that can be modified or hacked to do what you want it to!
 
 ---
 
+### Nintendo Wii U
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 5.5.0 - 5.5.6 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** SD card (32GB or larger recommended, FAT32 formatted), SD card reader, PC or Mac
+* **Links:** [Guide](https://wiiu.hacks.guide) • [CFW](https://github.com/wiiu-env/Aroma)
+* **Notes:** Uses the browser-based JS Type Confusion exploit to install Aroma CFW and PayloadLoader for coldboot functionality.
+
+---
+
 ### PlayStation Vita
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** 3.60 - 3.74 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** Internet connection (for HENlo browser exploit), Official Sony Memory Card (required for OLED 1000 models), SD2Vita adapter + microSD card (recommended for storage)
