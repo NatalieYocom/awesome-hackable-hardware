@@ -156,6 +156,14 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
+### Gaggia Classic / Classic Pro Espresso Machine
+**Type:** Hardmod · **Difficulty:** Difficult · **Firmware:** 1.0.0 - 4.0.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** STM32 / ESP32 microcontroller board (Gaggiuino kit), Pressure transducer, thermocouple, and dimmer/SSR modules, High-temperature silicone wire and spade connectors, Soldering iron and crimping tool, Phillips screwdriver and hex keys
+* **Links:** [Guide](https://gaggiuino.github.io/) • [CFW](https://github.com/Zer0-bit/gaggiuino)
+* **Notes:** Replaces the analog thermostat control with a touchscreen and microcontroller, adding PID temperature control, real-time pressure profiling, flow control, and predictive scale integration.
+
+---
+
 ### LG Smart TVs (webOS)
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** 3.0.0 - 24.20.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** Local Wi-Fi network, PC, Mac, or Linux machine (running webOS Dev Manager), LG Developer Mode account (or browser exploit via RootMyTV / DejaVu)
