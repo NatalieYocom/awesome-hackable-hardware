@@ -112,13 +112,13 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
-### Echo Dot 2nd Gen
-<img src="src/images/alexagen2.png" alt="Echo Dot 2nd Gen" height="140" />
+### Amazon Echo Dot (2nd Gen)
+<img src="https://commons.wikimedia.org/wiki/Category:Amazon_Echo" alt="Amazon Echo Dot (2nd Gen)" height="140" />
 
-**Type:** Softmod · **Difficulty:** Easy · **Firmware:** any · **Reversible:** Yes · **Brick Risk:** Unlikely
-* **Tools:** USB Cable, Computer
-* **Links:** [Guide](https://github.com/Gamer92000/echo-dot-assist)
-* **Notes:** Requires a working Home Assistant server and pipeline.
+**Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** FireOS 5 - FireOS 6 · **Reversible:** Yes · **Brick Risk:** Likely
+* **Tools:** Micro-USB data cable, Linux or Windows PC, ADB and Fastboot tools, amonet exploit package
+* **Links:** [Guide](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/) • [CFW](https://danieldb.uk/posts/alexa-2/)
+* **Notes:** Exploits the MediaTek bootrom (amonet/kamakiri) to unlock the bootloader, flash TWRP recovery, and gain root shell access over ADB. Many solutions with this unlock.
 
 ---
 
