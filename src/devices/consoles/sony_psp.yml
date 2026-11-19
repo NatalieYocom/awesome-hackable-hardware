@@ -1,0 +1,14 @@
+name: Sony PlayStation Portable (PSP)
+type: Softmod
+difficulty: Easy
+firmware: "6.60 - 6.61"
+reversible: true
+brick: none
+tools:
+- Memory Stick PRO Duo (or microSD to Memory Stick adapter)
+- Mini-USB cable or card reader
+- PC or Mac
+guide: https://www.pspunk.com/psp-cfw/
+cfw: https://github.com/PSP-Archive/ARK-4
+image:
+notes: "All PSP models (1000, 2000, 3000, Go, Street) can run permanent ARK-4 CFW via Infinity or cIPL."
