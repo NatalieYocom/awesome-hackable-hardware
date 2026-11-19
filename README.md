@@ -152,6 +152,16 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Links:** [Guide](https://github.com/pvvx/ATC_MiThermometer) • [CFW](https://github.com/pvvx/ATC_MiThermometer)
 * **Notes:** Flashes wirelessly over Bluetooth Low Energy directly from a browser. Removes Xiaomi Mi Home cloud encryption, adds custom BTHome/Zigbee advertising formats, and extends battery life.
 
+## Household Appliances
+
+---
+
+### LG Smart TVs (webOS)
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 3.0.0 - 24.20.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** Local Wi-Fi network, PC, Mac, or Linux machine (running webOS Dev Manager), LG Developer Mode account (or browser exploit via RootMyTV / DejaVu)
+* **Links:** [Guide](https://www.webosbrew.org/) • [CFW](https://github.com/webosbrew/homebrew-channel)
+* **Notes:** Installs the webOS Homebrew Channel, enabling ad-free YouTube (YouTube AdFree), Hyperion ambient lighting capture, SSH root access, and full local Home Assistant control without LG cloud telemetry.
+
 ---
 
 ## Contributing
