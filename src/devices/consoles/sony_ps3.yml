@@ -10,5 +10,5 @@ tools:
 - Internet connection on the PS3
 guide: https://consolemods.org/wiki/PS3:PS3_Mods_Wiki
 cfw: https://www.psx-place.com/forums/ps3-jailbreak-cfw-and-ps3hen.86/
-image:
+image: src/images/ps3.png
 notes: "Fat models and early Slim models (CECH-20xx to 25xx) support full CFW (Evilnat). Late Slims and Super Slims only support PS3HEN."
