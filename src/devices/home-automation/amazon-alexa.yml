@@ -5,9 +5,8 @@ firmware: "any"
 reversible: true
 brick: unlikely
 tools:
-  - Echo Dot 2nd Gen
-  - USB Cable (w/ data)
+  - USB Cable
   - Computer
 guide: https://github.com/Gamer92000/echo-dot-assist
-cfw: https://github.com/Gamer92000/echo-dot-assist
+cfw: 
 notes: "none"
