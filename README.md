@@ -6,9 +6,13 @@ An index of devices that can be modified or hacked to do what you want it to!
 
 ## Home Automation
 
-| Device | Type | Difficulty | Firmware | Reversible | Brick Risk | Tools | Links | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Echo Dot 2nd Gen** | Softmod | - | any | Yes | Unlikely | USB Cable, Computer | [Guide](https://github.com/Gamer92000/echo-dot-assist) | none |
+---
+
+### Echo Dot 2nd Gen
+**Type:** Softmod · **Difficulty:** - · **Firmware:** any · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** USB Cable, Computer
+* **Links:** [Guide](https://github.com/Gamer92000/echo-dot-assist)
+* **Notes:** none
 
 ## Contributing & Disclaimer
 All modifications carry inherent risk. Always double-check your exact hardware revision before flashing firmware.
