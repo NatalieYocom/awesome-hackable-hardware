@@ -1,0 +1,15 @@
+name: Nintendo Switch (Unpatched V1)
+type: Softmod
+difficulty: Intermediate
+firmware: "1.0.0 - 19.0.1"
+reversible: true
+brick: unlikely
+tools:
+- RCM Jig
+- USB-C to USB-A/C data cable
+- microSD card (64GB or larger recommended)
+- PC, Mac, or Android phone (payload injector)
+guide: https://switch.hacks.guide
+cfw: https://github.com/Atmosphere-NX/Atmosphere
+image:
+notes: "Only applies to early Erista (V1) units manufactured before mid-2018 vulnerable to the Fusee Gelee exploit. Newer Switch models require a modchip."
