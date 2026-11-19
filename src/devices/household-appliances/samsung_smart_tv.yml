@@ -1,0 +1,14 @@
+name: Samsung Smart TVs (Tizen OS)
+type: Softmod
+difficulty: Intermediate
+firmware: "1000 - 2500"
+reversible: true
+brick: none
+tools:
+- PC or Mac (running Tizen Studio or TizenBrew)
+- Local Wi-Fi network
+- Samsung Developer Mode enabled on TV
+guide: https://github.com/reisxd/TizenBrew
+cfw: https://github.com/reisxd/TizenTube
+image:
+notes: "Uses Developer Mode to sideload TizenBrew and custom web apps (such as TizenTube for ad-free playback and MoonLight for game streaming) while allowing local WebSocket control in Home Assistant with Samsung's ad/telemetry domains blocked via Pi-hole."
