@@ -15,6 +15,15 @@ def format_link(raw_url: str, label: str) -> str:
         url = f"https://{url}"
     return f"[{label}]({url})"
 
+def get_category_heading(category_dir: pathlib.Path) -> str:
+    name_file = category_dir / "foldername_"
+    if name_file.exists():
+        custom_name = name_file.read_text(encoding="utf-8").strip()
+        if custom_name:
+            return custom_name
+    # Fallback if foldername_ is missing or empty
+    return category_dir.name.replace("-", " ").title()
+
 def build():
     if not TEMPLATE_FILE.exists():
         raise FileNotFoundError(f"Missing template file: {TEMPLATE_FILE}")
@@ -39,8 +48,7 @@ def build():
 
             devices.sort(key=lambda d: str(d.get("name", "")).lower())
 
-            # Turn folder name into a clean heading (e.g., "e-readers" -> "E-Readers")
-            heading = category_dir.name.replace("-", " ").title()
+            heading = get_category_heading(category_dir)
             lines = [
                 f"## {heading}\n",
                 "| Device | Type | Difficulty | Firmware | Reversible | Brick Risk | Tools | Links | Notes |",
