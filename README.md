@@ -77,6 +77,8 @@ An index of devices that can be modified or hacked to do what you want it to!
 ---
 
 ### Sony PlayStation 3
+<img src="src/images/ps3.png" alt="Sony PlayStation 3" height="140" />
+
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** 4.80 - 4.91 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** USB flash drive (FAT32 formatted), PC or Mac, Internet connection on the PS3
 * **Links:** [Guide](https://consolemods.org/wiki/PS3:PS3_Mods_Wiki) • [CFW](https://www.psx-place.com/forums/ps3-jailbreak-cfw-and-ps3hen.86/)
