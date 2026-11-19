@@ -9,5 +9,5 @@ tools:
 - Ethernet cable and PC (required for 9.03 - 11.00 PPPwn exploit)
 guide: https://consolemods.org/wiki/PS4:PS4_Mods_Wiki
 cfw: https://github.com/GoldHEN/GoldHEN
-image:
+image: src/images/ps4.png
 notes: "Jailbreak is tethered and must be re-applied after a full reboot. Firmware 9.00 uses a USB/WebKit exploit; 11.00 uses the PPPwn Ethernet exploit."
