@@ -8,7 +8,7 @@ An index of devices that can be modified or hacked to do what you want it to!
 
 | Device | Type | Difficulty | Firmware | Reversible | Brick Risk | Tools | Links | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Echo Dot 2nd Gen** | Softmod | - | any | Yes | Unlikely | Echo Dot 2nd Gen, USB Cable (w/ data), Computer | [Guide](https://github.com/Gamer92000/echo-dot-assist) • [CFW](https://github.com/Gamer92000/echo-dot-assist) | none |
+| **Echo Dot 2nd Gen** | Softmod | - | any | Yes | Unlikely | USB Cable, Computer | [Guide](https://github.com/Gamer92000/echo-dot-assist) | none |
 
 ## Contributing & Disclaimer
 All modifications carry inherent risk. Always double-check your exact hardware revision before flashing firmware.
