@@ -198,6 +198,14 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
+### Roku Streaming Players & Roku TVs
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 9.0 - 13.1 · **Reversible:** Yes · **Brick Risk:** None
+* **Tools:** Web browser, Local Wi-Fi network, Home Assistant instance
+* **Links:** [Guide](https://www.home-assistant.io/integrations/roku/) • [CFW](https://github.com/iamkubi/roku-developer-mode)
+* **Notes:** Enabling secret Developer Mode allows sideloading custom BrightScript apps and exposes the local External Control Protocol (ECP) REST API on port 8060, enabling full Home Assistant automation even when Roku cloud servers are blocked.
+
+---
+
 ## Contributing
 
 1. Fork the repository and create a new branch.
