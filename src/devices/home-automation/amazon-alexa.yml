@@ -11,5 +11,5 @@ tools:
 - amonet exploit package
 guide: https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/
 cfw: https://danieldb.uk/posts/alexa-2/
-image: https://commons.wikimedia.org/wiki/Category:Amazon_Echo
+image: src/images/alexagen2.png
 notes: "Exploits the MediaTek bootrom (amonet/kamakiri) to unlock the bootloader, flash TWRP recovery, and gain root shell access over ADB. Many solutions with this unlock."
