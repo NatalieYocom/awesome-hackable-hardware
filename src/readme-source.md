@@ -19,7 +19,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
-## Device Index
 
 {{DEVICES}}
 
