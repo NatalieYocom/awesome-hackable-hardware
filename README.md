@@ -54,6 +54,14 @@ An index of devices that can be modified or hacked to do what you want it to!
 * **Links:** [Guide](https://consolemods.org/wiki/PS3:PS3_Mods_Wiki) • [CFW](https://www.psx-place.com/forums/ps3-jailbreak-cfw-and-ps3hen.86/)
 * **Notes:** Fat models and early Slim models (CECH-20xx to 25xx) support full CFW (Evilnat). Late Slims and Super Slims only support PS3HEN.
 
+---
+
+### Sony PlayStation Portable (PSP)
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 6.60 - 6.61 · **Reversible:** Yes · **Brick Risk:** None
+* **Tools:** Memory Stick PRO Duo (or microSD to Memory Stick adapter), Mini-USB cable or card reader, PC or Mac
+* **Links:** [Guide](https://www.pspunk.com/psp-cfw/) • [CFW](https://github.com/PSP-Archive/ARK-4)
+* **Notes:** All PSP models (1000, 2000, 3000, Go, Street) can run permanent ARK-4 CFW via Infinity or cIPL.
+
 ## Home Automation
 
 ---
