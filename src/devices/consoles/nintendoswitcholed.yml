@@ -1,0 +1,16 @@
+name: Nintendo Switch (OLED / Lite / V2)
+type: Hardmod
+difficulty: Difficult
+firmware: "1.0.0 - 19.0.1"
+reversible: false
+brick: likely
+tools:
+- Picofly (RP2040) or Instinct-NX modchip
+- Soldering iron with fine tip and flux
+- Microscope or magnifying glass
+- Tri-wing and Phillips #00 screwdrivers
+- microSD card
+guide: https://switch.hacks.guide
+cfw: https://github.com/Atmosphere-NX/Atmosphere
+image:
+notes: "Requires micro-soldering directly to motherboard capacitors and flex cables. OLED models require the DAT0 adapter or Kamikaze method."
