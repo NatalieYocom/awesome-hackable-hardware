@@ -1,6 +1,6 @@
 name: Echo Dot 2nd Gen
 type: Softmod
-difficulty: # Easy
+difficulty: Easy
 firmware: "any"
 reversible: true
 brick: unlikely
