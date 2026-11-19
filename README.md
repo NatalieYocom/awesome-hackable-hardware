@@ -14,7 +14,7 @@ An index of devices that can be modified or hacked to do what you want it to!
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** any · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** USB Cable, Computer
 * **Links:** [Guide](https://github.com/Gamer92000/echo-dot-assist)
-* **Notes:** none
+* **Notes:** Requires a working Home Assistant server and pipeline.
 
 ## Contributing & Disclaimer
 All modifications carry inherent risk. Always double-check your exact hardware revision before flashing firmware.
