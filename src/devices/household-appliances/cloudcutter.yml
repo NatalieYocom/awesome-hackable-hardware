@@ -1,0 +1,13 @@
+name: Smart Life / Tuya Wi-Fi Pet Feeders (ESP8266 / BK7231)
+type: Softmod
+difficulty: Intermediate
+firmware: "1.0.0 - 2.9.0"
+reversible: false
+brick: unlikely
+tools:
+- Linux PC or Raspberry Pi with a Wi-Fi adapter
+- Secondary smartphone or laptop (to join the dummy AP)
+guide: https://github.com/tuya-cloudcutter/tuya-cloudcutter
+cfw: https://github.com/arendst/Tasmota
+image:
+notes: "Uses pre-built tuya-cloudcutter profiles and existing Tasmota/OpenBeken firmware images to flash Tuya-based automatic pet feeders (like HoneyGuaridan or Petlibro Wi-Fi models) over the air without custom coding."
