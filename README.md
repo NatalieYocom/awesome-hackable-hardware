@@ -113,7 +113,7 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Amazon Echo Dot (2nd Gen)
-<img src="https://commons.wikimedia.org/wiki/Category:Amazon_Echo" alt="Amazon Echo Dot (2nd Gen)" height="140" />
+<img src="src/images/alexagen2.png" alt="Amazon Echo Dot (2nd Gen)" height="140" />
 
 **Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** FireOS 5 - FireOS 6 · **Reversible:** Yes · **Brick Risk:** Likely
 * **Tools:** Micro-USB data cable, Linux or Windows PC, ADB and Fastboot tools, amonet exploit package
