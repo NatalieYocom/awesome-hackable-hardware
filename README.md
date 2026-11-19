@@ -146,6 +146,14 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
+### Xiaomi LYWSD03MMC Temperature & Humidity Sensor
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 1.0.0_0109 - 2.1.1_0159 · **Reversible:** Yes · **Brick Risk:** None
+* **Tools:** PC, Mac, or Android phone with Bluetooth, Chrome or Edge browser (for Web Bluetooth Telink Flasher)
+* **Links:** [Guide](https://github.com/pvvx/ATC_MiThermometer) • [CFW](https://github.com/pvvx/ATC_MiThermometer)
+* **Notes:** Flashes wirelessly over Bluetooth Low Energy directly from a browser. Removes Xiaomi Mi Home cloud encryption, adds custom BTHome/Zigbee advertising formats, and extends battery life.
+
+---
+
 ## Contributing
 
 1. Fork the repository and create a new branch.
