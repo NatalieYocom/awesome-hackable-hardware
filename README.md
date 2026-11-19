@@ -48,6 +48,14 @@ An index of devices that can be modified or hacked to do what you want it to!
 
 ---
 
+### PlayStation 4
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** 1.00 - 11.00 · **Reversible:** Yes · **Brick Risk:** None
+* **Tools:** USB flash drive (exFAT formatted), Ethernet cable and PC (required for 9.03 - 11.00 PPPwn exploit)
+* **Links:** [Guide](https://consolemods.org/wiki/PS4:PS4_Mods_Wiki) • [CFW](https://github.com/GoldHEN/GoldHEN)
+* **Notes:** Jailbreak is tethered and must be re-applied after a full reboot. Firmware 9.00 uses a USB/WebKit exploit; 11.00 uses the PPPwn Ethernet exploit.
+
+---
+
 ### PlayStation Vita
 **Type:** Softmod · **Difficulty:** Easy · **Firmware:** 3.60 - 3.74 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** Internet connection (for HENlo browser exploit), Official Sony Memory Card (required for OLED 1000 models), SD2Vita adapter + microSD card (recommended for storage)
