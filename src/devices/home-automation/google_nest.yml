@@ -1,0 +1,15 @@
+name: Google Nest Learning Thermostat (Gen 1 / Gen 2)
+type: Hardmod
+difficulty: Difficult
+firmware: "1.0 - 5.9"
+reversible: true
+brick: likely
+tools:
+- Torx T5 screwdriver
+- Plastic spudger / pry tool
+- Micro-USB cable (for DFU / omap_loader mode)
+- Linux PC or Raspberry Pi
+guide: https://github.com/codykociemba/NoLongerEvil-Thermostat
+cfw: https://github.com/codykociemba/NoLongerEvil-Thermostat
+image:
+notes: "Bypasses Google's discontinued cloud servers on older Nest units via USB DFU mode to inject a custom Linux kernel and local API, restoring local control and Home Assistant integration."
