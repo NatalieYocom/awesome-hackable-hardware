@@ -11,7 +11,7 @@ An index of devices that can be modified or hacked to do what you want it to!
 ### Echo Dot 2nd Gen
 <img src="src/images/alexagen2.png" alt="Echo Dot 2nd Gen" height="140" />
 
-**Type:** Softmod · **Difficulty:** - · **Firmware:** any · **Reversible:** Yes · **Brick Risk:** Unlikely
+**Type:** Softmod · **Difficulty:** Easy · **Firmware:** any · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** USB Cable, Computer
 * **Links:** [Guide](https://github.com/Gamer92000/echo-dot-assist)
 * **Notes:** none
