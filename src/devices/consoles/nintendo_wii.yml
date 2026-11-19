@@ -10,5 +10,5 @@ tools:
 - Internet connection (for str2hax DNS exploit)
 guide: https://wii.hacks.guide
 cfw: https://github.com/HomebrewChannel/hbc
-image:
+image: src/images/wii.png
 notes: "Can be modded using LetterBomb (requires MAC address and SD card) or str2hax (requires no SD card initially, only a DNS change)."
