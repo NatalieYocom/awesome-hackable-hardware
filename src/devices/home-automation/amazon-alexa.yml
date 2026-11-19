@@ -10,4 +10,4 @@ tools:
 image: src/images/alexagen2.png
 guide: https://github.com/Gamer92000/echo-dot-assist
 cfw: 
-notes: "none"
+notes: "Requires a working Home Assistant server and pipeline."
