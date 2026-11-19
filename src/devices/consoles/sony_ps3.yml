@@ -1,0 +1,14 @@
+name: Sony PlayStation 3
+type: Softmod
+difficulty: Easy
+firmware: "4.80 - 4.91"
+reversible: true
+brick: unlikely
+tools:
+- USB flash drive (FAT32 formatted)
+- PC or Mac
+- Internet connection on the PS3
+guide: https://consolemods.org/wiki/PS3:PS3_Mods_Wiki
+cfw: https://www.psx-place.com/forums/ps3-jailbreak-cfw-and-ps3hen.86/
+image:
+notes: "Fat models and early Slim models (CECH-20xx to 25xx) support full CFW (Evilnat). Late Slims and Super Slims only support PS3HEN."
