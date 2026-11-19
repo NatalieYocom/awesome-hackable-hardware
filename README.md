@@ -194,14 +194,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Links:** [Guide](https://github.com/tuya-cloudcutter/tuya-cloudcutter) • [CFW](https://github.com/arendst/Tasmota)
 * **Notes:** Uses pre-built tuya-cloudcutter profiles and existing Tasmota/OpenBeken firmware images to flash Tuya-based automatic pet feeders (like HoneyGuaridan or Petlibro Wi-Fi models) over the air without custom coding.
 
----
-
-### Whirlpool / KitchenAid / Maytag / JennAir Appliances
-**Type:** Hardmod · **Difficulty:** Intermediate · **Firmware:** 1.0 - 2.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
-* **Tools:** ESP32 or ESP8266 development board, 3-pin JST / Molex connector cable (for the WIDE bus port), Buck converter (12V to 5V/3.3V), PC or Mac (running ESPHome)
-* **Links:** [Guide](https://github.com/nicola-lunghi/esphome-whirlpool) • [CFW](https://github.com/esphome/esphome)
-* **Notes:** Taps into the internal 3-wire WIDE serial bus found on modern Whirlpool-family washers, dryers, ovens, and dishwashers to read cycle telemetry and control settings locally in Home Assistant without the Whirlpool cloud.
-
 ## Media Players
 
 ---
