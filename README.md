@@ -33,6 +33,8 @@ An index of devices that can be modified or hacked to do what you want it to!
 ---
 
 ### Nintendo Switch (Unpatched V1)
+<img src="src/images/switch.png" alt="Nintendo Switch (Unpatched V1)" height="140" />
+
 **Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** 1.0.0 - 19.0.1 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** RCM Jig, USB-C to USB-A/C data cable, microSD card (64GB or larger recommended), PC, Mac, or Android phone (payload injector)
 * **Links:** [Guide](https://switch.hacks.guide) • [CFW](https://github.com/Atmosphere-NX/Atmosphere)
