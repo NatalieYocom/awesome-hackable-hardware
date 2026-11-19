@@ -174,6 +174,14 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 ---
 
+### Google Chromecast with Google TV (HD / 4K)
+**Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** 10.0 - 12.0 · **Reversible:** Yes · **Brick Risk:** Unlikely
+* **Tools:** USB-C hub with Power Delivery, USB-A to USB-A data cable (or Linux PC for DirtyCow / bootloader unlock), PC or Mac (with ADB and Fastboot)
+* **Links:** [Guide](https://xdaforums.com/f/chromecast-with-google-tv.12257/) • [CFW](https://github.com/topjohnwu/Magisk)
+* **Notes:** Early unpatched firmware versions allow bootloader unlocking via the Amlogic exploit, enabling LineageOS or de-Googled stock firmware with custom launchers and local ADB control from Home Assistant.
+
+---
+
 ### Linkplay Audio Modules (WiiM / Arylic / Audio Pro / GGMM)
 **Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** 3.6 - 4.6 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** PC or Mac (with SSH / Telnet / curl), Local Wi-Fi or Ethernet network
