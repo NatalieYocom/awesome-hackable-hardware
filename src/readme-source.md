@@ -17,8 +17,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Reversible:** Whether the device can be cleanly restored to stock firmware.
 * **Brick Risk:** Likelihood of permanently damaging the device if steps are followed incorrectly (`none`, `unlikely`, or `likely`).
 
----
-
 
 {{DEVICES}}
 
