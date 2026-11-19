@@ -1,0 +1,14 @@
+name: Nintendo DSi
+type: Softmod
+difficulty: Easy
+firmware: "1.4 - 1.4.5"
+reversible: true
+brick: unlikely
+tools:
+- SD card (2GB or larger, FAT32 formatted)
+- SD card reader
+- PC or Mac
+guide: https://dsi.cfw.guide
+cfw: https://github.com/DS-Homebrew/TWiLightMenu
+image:
+notes: "Uses the Memory Pit exploit via the Nintendo DSi Camera app, followed by Unlaunch for coldbooting directly into TWiLight Menu++."
