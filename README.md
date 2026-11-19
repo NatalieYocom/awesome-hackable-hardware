@@ -16,6 +16,14 @@ An index of devices that can be modified or hacked to do what you want it to!
 
 ---
 
+### Nintendo Switch (OLED / Lite / V2)
+**Type:** Hardmod · **Difficulty:** Difficult · **Firmware:** 1.0.0 - 19.0.1 · **Reversible:** No · **Brick Risk:** Likely
+* **Tools:** Picofly (RP2040) or Instinct-NX modchip, Soldering iron with fine tip and flux, Microscope or magnifying glass, Tri-wing and Phillips, microSD card
+* **Links:** [Guide](https://switch.hacks.guide) • [CFW](https://github.com/Atmosphere-NX/Atmosphere)
+* **Notes:** Requires micro-soldering directly to motherboard capacitors and flex cables. OLED models require the DAT0 adapter or Kamikaze method.
+
+---
+
 ### Nintendo Switch (Unpatched V1)
 **Type:** Softmod · **Difficulty:** Intermediate · **Firmware:** 1.0.0 - 19.0.1 · **Reversible:** Yes · **Brick Risk:** Unlikely
 * **Tools:** RCM Jig, USB-C to USB-A/C data cable, microSD card (64GB or larger recommended), PC, Mac, or Android phone (payload injector)
