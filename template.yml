@@ -10,7 +10,7 @@ tools:
   - tool 3
 guide: example.com
 cfw: example.com
-image: # Optional: direct URL (https://...) or path in repo (src/images/device.png)
+image: # Optional: direct URL (https://...) or path in repo. (Leave blank for auto detection)
 notes: "example"
 
 # For all websites, remember to add "https://" in the front, or the link may not work!
