@@ -10,6 +10,6 @@ tools:
 - PC, Mac, or Android device
 - Magnet (only required for ntrboot method)
 guide: https://3ds.hacks.guide
-cfw: https://github.com/LumaTeam/Luma3DS
+cfw: https://github.com/LumaTeam/Luma3DS 
 image:
 notes: "Supports all models (Old 3DS, 2DS, New 3DS, New 2DS XL). MSET9 and super-skaterhax cover the latest firmwares."
