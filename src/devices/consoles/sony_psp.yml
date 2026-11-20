@@ -10,5 +10,5 @@ tools:
 - PC or Mac
 guide: https://www.pspunk.com/psp-cfw/
 cfw: https://github.com/PSP-Archive/ARK-4
-image:
+image: src/images/sony-playstation-portable-psp.png
 notes: "All PSP models (1000, 2000, 3000, Go, Street) can run permanent ARK-4 CFW via Infinity or cIPL."
