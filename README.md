@@ -157,6 +157,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Google Nest Learning Thermostat (Gen 1 / Gen 2)
+<img src="src/images/nest.png" alt="Google Nest Learning Thermostat (Gen 1 / Gen 2)" height="140" />
+
 > **Type:** `Hardmod` &nbsp;|&nbsp; **Difficulty:** 🔴 Difficult &nbsp;|&nbsp; **Firmware:** `1.0 - 5.9` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🔴 Likely
 
 - **Tools:** Torx T5 screwdriver, Plastic spudger / pry tool, Micro-USB cable (for DFU / omap_loader mode), Linux PC or Raspberry Pi
