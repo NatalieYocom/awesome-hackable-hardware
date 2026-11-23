@@ -22,7 +22,7 @@ Each device entry tracks key requirements and risk levels before you begin:
 
 - [Video Game Consoles](#video-game-consoles) *(10 devices)*
 - [Home Automation](#home-automation) *(5 devices)*
-- [Household Appliances](#household-appliances) *(4 devices)*
+- [Household Appliances](#household-appliances) *(3 devices)*
 - [Media Players](#media-players) *(4 devices)*
 
 ---
@@ -199,15 +199,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 <br>
 
 ## Household Appliances
-
----
-
-### Gaggia Classic / Classic Pro Espresso Machine
-> **Type:** `Hardmod` &nbsp;|&nbsp; **Difficulty:** 🔴 Difficult &nbsp;|&nbsp; **Firmware:** `1.0.0 - 4.0.0` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
-
-- **Tools:** STM32 / ESP32 microcontroller board (Gaggiuino kit), Pressure transducer, thermocouple, and dimmer/SSR modules, High-temperature silicone wire and spade connectors, Soldering iron and crimping tool, Phillips screwdriver and hex keys
-- **Links:** [📖 Guide](https://gaggiuino.github.io/) &nbsp;•&nbsp; [⚙️ CFW](https://github.com/Zer0-bit/gaggiuino)
-- **Notes:** Replaces the analog thermostat control with a touchscreen and microcontroller, adding PID temperature control, real-time pressure profiling, flow control, and predictive scale integration.
 
 ---
 
