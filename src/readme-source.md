@@ -20,9 +20,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Reversible:** Whether the device can be cleanly restored to stock firmware.
 * **Brick Risk:** Likelihood of permanently damaging the device if steps are followed incorrectly (`none`, `unlikely`, or `likely`).
 
-
-{{DEVICES}}
-
 ---
 
 ## Contributing
@@ -35,3 +32,5 @@ Each device entry tracks key requirements and risk levels before you begin:
 ## Disclaimer
 
 All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
+
+{{DEVICES}}
