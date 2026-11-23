@@ -54,6 +54,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Nintendo Switch (OLED / Lite / V2)
+<img src="src/images/switch.png" alt="Nintendo Switch (OLED / Lite / V2)" height="140" />
+
 > **Type:** `Hardmod` &nbsp;|&nbsp; **Difficulty:** 🔴 Difficult &nbsp;|&nbsp; **Firmware:** `1.0.0 - 19.0.1` &nbsp;|&nbsp; **Reversible:** No &nbsp;|&nbsp; **Brick Risk:** 🔴 Likely
 
 - **Tools:** Picofly (RP2040) or Instinct-NX modchip, Soldering iron with fine tip and flux, Microscope or magnifying glass, Tri-wing and Phillips, microSD card
