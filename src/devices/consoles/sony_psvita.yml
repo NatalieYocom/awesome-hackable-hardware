@@ -10,5 +10,5 @@ tools:
 - SD2Vita adapter + microSD card (recommended for storage)
 guide: https://vita.hacks.guide
 cfw: https://github.com/TheOfficialFloW/henkaku
-image: src/images/playstation-vita.png
+image: src/images/vita.png
 notes: "Firmware 3.74 can be hacked directly via the built-in web browser without a PC, then downgraded to 3.65 for permanent Enso CFW."
