@@ -10,5 +10,5 @@ tools:
 - PC or Mac
 guide: https://thingino.com/
 cfw: https://github.com/themactep/thingino-firmware
-image:
+image: src/images/wyze.png
 notes: "Boots from a microSD card (or flashes directly to SPI NOR flash) to replace Wyze's cloud-dependent firmware with Thingino, unlocking local RTSP streams, ONVIF, and MQTT for Frigate and Home Assistant."
