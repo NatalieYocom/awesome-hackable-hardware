@@ -87,7 +87,7 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Nintendo Wii U
-<img src="src/images/wiiu.png" alt="Nintendo Wii U" height="140" />
+<img src="src/images/wiiu.jpeg" alt="Nintendo Wii U" height="140" />
 
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `5.5.0 - 5.5.6` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
