@@ -175,6 +175,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Wyze Cam (v2 / v3 / Pan v1 / Pan v2)
+<img src="src/images/wyze.png" alt="Wyze Cam (v2 / v3 / Pan v1 / Pan v2)" height="140" />
+
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `4.9.1 - 4.36.11` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟢 None
 
 - **Tools:** microSD card (32GB or smaller, FAT32 formatted), microSD card reader, PC or Mac
