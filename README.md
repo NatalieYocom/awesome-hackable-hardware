@@ -8,6 +8,9 @@ A community-maintained index of consoles, handhelds, and hardware that can be ja
 > [!NOTE]
 > If you encounter an issue in the README (broken link, improper documentation) submit an issue, or edit and fix the issue in a pull request.
 
+>[!WARNING]
+>All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version with the documentation** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
+
 ---
 
 ## Understanding the Fields
@@ -28,10 +31,6 @@ Each device entry tracks key requirements and risk levels before you begin:
 2. Copy `template.yml` into the matching category folder inside `src/devices/` (e.g., `src/devices/handhelds/my-device.yml`).
 3. Fill out all required fields using valid YAML syntax. Ensure all URLs start with `https://`.
 4. Open a Pull Request with a brief summary of your addition or update.
-
-## Disclaimer
-
-All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
 
 ## Categories
 
