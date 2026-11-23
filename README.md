@@ -131,7 +131,7 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Sony PlayStation Portable (PSP)
-<img src="src/images/sony-playstation-portable-psp.png" alt="Sony PlayStation Portable (PSP)" height="140" />
+<img src="src/images/psp.png" alt="Sony PlayStation Portable (PSP)" height="140" />
 
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `6.60 - 6.61` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟢 None
 
