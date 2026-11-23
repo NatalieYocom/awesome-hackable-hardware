@@ -10,5 +10,5 @@ tools:
 - PC or Mac
 guide: https://dsi.cfw.guide
 cfw: https://github.com/DS-Homebrew/TWiLightMenu
-image: src/images/nintendo-dsi.png
+image: src/images/nintendo-dsi.jpeg
 notes: "Uses the Memory Pit exploit via the Nintendo DSi Camera app, followed by Unlaunch for coldbooting directly into TWiLight Menu++."
