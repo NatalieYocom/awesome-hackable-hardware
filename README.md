@@ -32,6 +32,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Nintendo 3DS
+<img src="src/images/nintendo-3ds.png" alt="Nintendo 3DS" height="140" />
+
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `1.0.0 - 11.17.0` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
 - **Tools:** SD card (4GB or larger), SD card reader, PC, Mac, or Android device, Magnet (only required for ntrboot method)
@@ -41,6 +43,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Nintendo DSi
+<img src="src/images/nintendo-dsi.png" alt="Nintendo DSi" height="140" />
+
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `1.4 - 1.4.5` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
 - **Tools:** SD card (2GB or larger, FAT32 formatted), SD card reader, PC or Mac
@@ -81,6 +85,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Nintendo Wii U
+<img src="src/images/nintendo-wii-u.png" alt="Nintendo Wii U" height="140" />
+
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `5.5.0 - 5.5.6` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
 - **Tools:** SD card (32GB or larger recommended, FAT32 formatted), SD card reader, PC or Mac
@@ -101,6 +107,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### PlayStation Vita
+<img src="src/images/playstation-vita.png" alt="PlayStation Vita" height="140" />
+
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `3.60 - 3.74` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
 - **Tools:** Internet connection (for HENlo browser exploit), Official Sony Memory Card (required for OLED 1000 models), SD2Vita adapter + microSD card (recommended for storage)
@@ -121,6 +129,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Sony PlayStation Portable (PSP)
+<img src="src/images/sony-playstation-portable-psp.png" alt="Sony PlayStation Portable (PSP)" height="140" />
+
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `6.60 - 6.61` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟢 None
 
 - **Tools:** Memory Stick PRO Duo (or microSD to Memory Stick adapter), Mini-USB cable or card reader, PC or Mac
