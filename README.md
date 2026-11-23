@@ -6,7 +6,7 @@ A community-maintained index of consoles, handhelds, and hardware that can be ja
 > Do **not** edit `README.md` directly—it is automatically generated. Instead, copy `template.yml` into the appropriate category folder under `src/devices/` and submit a Pull Request.
 
 > [!NOTE]
-> If you encounter an issue (broken link, improper documentation) submit an issue.
+> If you encounter an issue in the README (broken link, improper documentation) submit an issue, or edit and fix the issue in a pull request.
 
 ---
 
