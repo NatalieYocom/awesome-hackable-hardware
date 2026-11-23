@@ -8,5 +8,5 @@ tools:
 - Varies per vaccum, see guide.
 guide: https://valetudo.cloud/pages/general/getting-started.html
 cfw: https://github.com/Hypfer/Valetudo
-image: src/images/roborock.png
+image: src/images/roborock.webp
 notes: "Replaces the vendor cloud with Valetudo, providing a completely local web interface, room mapping, and native MQTT integration for Home Assistant without sending floorplans to external servers."
