@@ -43,7 +43,7 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Nintendo DSi
-<img src="src/images/nintendo-dsi.png" alt="Nintendo DSi" height="140" />
+<img src="src/images/nintendo-dsi.jpeg" alt="Nintendo DSi" height="140" />
 
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `1.4 - 1.4.5` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
