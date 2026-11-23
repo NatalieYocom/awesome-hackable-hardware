@@ -20,6 +20,18 @@ Each device entry tracks key requirements and risk levels before you begin:
 * **Reversible:** Whether the device can be cleanly restored to stock firmware.
 * **Brick Risk:** Likelihood of permanently damaging the device if steps are followed incorrectly (`none`, `unlikely`, or `likely`).
 
+---
+
+## Contributing
+
+1. Fork the repository and create a new branch.
+2. Copy `template.yml` into the matching category folder inside `src/devices/` (e.g., `src/devices/handhelds/my-device.yml`).
+3. Fill out all required fields using valid YAML syntax. Ensure all URLs start with `https://`.
+4. Open a Pull Request with a brief summary of your addition or update.
+
+## Disclaimer
+
+All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
 
 ## Categories
 
@@ -269,16 +281,3 @@ Each device entry tracks key requirements and risk levels before you begin:
 - **Tools:** Web browser, Local Wi-Fi network, Home Assistant instance
 - **Links:** [📖 Guide](https://www.home-assistant.io/integrations/roku/) &nbsp;•&nbsp; [⚙️ CFW](https://github.com/iamkubi/roku-developer-mode)
 - **Notes:** Enabling secret Developer Mode allows sideloading custom BrightScript apps and exposes the local External Control Protocol (ECP) REST API on port 8060, enabling full Home Assistant automation even when Roku cloud servers are blocked.
-
----
-
-## Contributing
-
-1. Fork the repository and create a new branch.
-2. Copy `template.yml` into the matching category folder inside `src/devices/` (e.g., `src/devices/handhelds/my-device.yml`).
-3. Fill out all required fields using valid YAML syntax. Ensure all URLs start with `https://`.
-4. Open a Pull Request with a brief summary of your addition or update.
-
-## Disclaimer
-
-All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
