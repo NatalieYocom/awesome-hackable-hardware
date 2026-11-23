@@ -2,14 +2,14 @@
 
 A community-maintained index of consoles, handhelds, and hardware that can be jailbroken, softmodded, or hardmodded to run custom firmware (CFW) and homebrew software.
 
-> **Want to add or update a device?**
-> Do **not** edit `README.md` directly—it is automatically generated. Instead, copy `template.yml` into the appropriate category folder under `src/devices/` and submit a Pull Request.
+>[!WARNING]
+>All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version with the documentation** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
 
 > [!NOTE]
 > If you encounter an issue in the README (broken link, improper documentation) submit an issue, or edit and fix the issue in a pull request.
 
->[!WARNING]
->All hardware and software modifications carry inherent risk. **Always verify your exact model number, board revision, and current firmware version with the documentation** before running exploits or flashing custom firmware. Neither the maintainers nor contributors are responsible for bricked devices, voided warranties, or banned online accounts.
+> **Want to add or update a device?**
+> Do **not** edit `README.md` directly—it is automatically generated. Instead, copy `template.yml` into the appropriate category folder under `src/devices/` and submit a Pull Request.
 
 ---
 
