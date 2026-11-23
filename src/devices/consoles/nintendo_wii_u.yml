@@ -10,5 +10,5 @@ tools:
 - PC or Mac
 guide: https://wiiu.hacks.guide
 cfw: https://github.com/wiiu-env/Aroma
-image: src/images/nintendo-wii-u.png
+image: src/images/wiiu.png
 notes: "Uses the browser-based JS Type Confusion exploit to install Aroma CFW and PayloadLoader for coldboot functionality."
