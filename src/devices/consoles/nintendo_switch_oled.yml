@@ -12,5 +12,5 @@ tools:
 - microSD card
 guide: https://switch.hacks.guide
 cfw: https://github.com/Atmosphere-NX/Atmosphere
-image:
+image: src/images/switch.png
 notes: "Requires micro-soldering directly to motherboard capacitors and flex cables. OLED models require the DAT0 adapter or Kamikaze method."
