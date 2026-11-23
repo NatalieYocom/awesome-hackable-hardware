@@ -166,6 +166,8 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### Roborock / Dreame / Xiaomi Robot Vacuums
+<img src="src/images/roborock.png" alt="Roborock / Dreame / Xiaomi Robot Vacuums" height="140" />
+
 > **Type:** `Hardmod` &nbsp;|&nbsp; **Difficulty:** 🟡 Intermediate &nbsp;|&nbsp; **Firmware:** `1.0.0 - 4.3.9` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
 - **Tools:** Varies per vaccum, see guide.
