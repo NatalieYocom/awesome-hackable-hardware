@@ -11,5 +11,5 @@ tools:
 - Linux PC or Raspberry Pi
 guide: https://github.com/codykociemba/NoLongerEvil-Thermostat
 cfw: https://github.com/codykociemba/NoLongerEvil-Thermostat
-image:
+image: src/images/nest.png
 notes: "Bypasses Google's discontinued cloud servers on older Nest units via USB DFU mode to inject a custom Linux kernel and local API, restoring local control and Home Assistant integration."
