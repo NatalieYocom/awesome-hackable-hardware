@@ -109,7 +109,7 @@ Each device entry tracks key requirements and risk levels before you begin:
 ---
 
 ### PlayStation Vita
-<img src="src/images/playstation-vita.png" alt="PlayStation Vita" height="140" />
+<img src="src/images/vita.png" alt="PlayStation Vita" height="140" />
 
 > **Type:** `Softmod` &nbsp;|&nbsp; **Difficulty:** 🟢 Easy &nbsp;|&nbsp; **Firmware:** `3.60 - 3.74` &nbsp;|&nbsp; **Reversible:** Yes &nbsp;|&nbsp; **Brick Risk:** 🟡 Unlikely
 
